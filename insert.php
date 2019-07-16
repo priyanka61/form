@@ -7,7 +7,7 @@ $phone = $_POST['phone'];
 if (!empty($username) || !empty($password) || !empty($designation) || !empty($phoneCode) || !empty($phone)) {
  $host = "localhost";
     $dbUsername = "root";
-    $dbPassword = "mysqlserver";
+    $dbPassword = "123";
     $dbname = "testdb";
     //create connection
     $conn = new mysqli($host, $dbUsername, $dbPassword, $dbname);
